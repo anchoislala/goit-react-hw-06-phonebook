@@ -1,4 +1,4 @@
-import { configureStore, createAction, createReducer, createSlice } from '@reduxjs/toolkit'
+import { configureStore, createSlice } from '@reduxjs/toolkit'
 
 
 // Создай действия сохранения и удаления контакта,
