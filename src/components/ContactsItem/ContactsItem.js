@@ -3,7 +3,7 @@ import { deleteContact } from "redux/store";
 import { useDispatch } from "react-redux";
 import { ContactInfo, ContactInformation, DeleteButton } from "./ContactsItem.styled";
 
-const ContactsItem = ({ contact, onDeleteContact }) => {
+const ContactsItem = ({ contact }) => {
   const dispatch = useDispatch();
   const { id, name, number } = contact;
   return (
@@ -20,7 +20,6 @@ ContactsItem.propTypes = {
       name: PropTypes.string.isRequired,
       number: PropTypes.string.isRequired,
    }),
-  // onDeleteContact: PropTypes.func.isRequired,
 };
 
 export default ContactsItem;

@@ -7,7 +7,6 @@ const Filter = ({value, onChange}) => (
             type='text'
             value={value}
             onChange={onChange}
-            // onChange={() => dispatchEvent(updateFiter)}
         />
     </LabelFind>
 );
